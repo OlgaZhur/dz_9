@@ -1,0 +1,34 @@
+body {
+	font-family: "Arial";
+	margin: 0;
+	padding: 0;
+}
+.hader0 {
+	height: 65px;
+	background-color: #1b5589;
+	width: 100%;
+	box-sizing: border-box;
+}
+.hader {
+	padding-top: 22px;
+	margin-left: 70px;
+}
+
+.hader a {
+	color: #4a8bcb;
+	text-decoration: none;
+	margin-top: 20px;
+	list-style-type: none;
+	padding-left: 10px;
+}
+.hader a:hover {
+	font-weight: bold;
+	color: #fff;
+}
+
+.img {
+	text-align: right;
+	margin-top: -33px;
+	margin-right: 75px;
+	
+}
