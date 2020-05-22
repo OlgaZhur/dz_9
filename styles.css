@@ -13,7 +13,6 @@ body {
 	padding-top: 22px;
 	margin-left: 70px;
 }
-
 .hader a {
 	color: #4a8bcb;
 	text-decoration: none;
@@ -30,5 +29,8 @@ body {
 	text-align: right;
 	margin-top: -33px;
 	margin-right: 75px;
-	
 }
+p {
+	font-size: 35px;
+	text-align: center;
+} 
