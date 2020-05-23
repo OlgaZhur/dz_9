@@ -24,7 +24,6 @@ body {
 	font-weight: bold;
 	color: #fff;
 }
-
 .img {
 	text-align: right;
 	margin-top: -33px;
@@ -46,7 +45,6 @@ p {
 	margin-right: 56px;
 }
 .block1 p:nth-child(2) {
-	/*padding-left: 62;*/
 	margin-left: -192px;
 }
 .block1 p {
@@ -74,27 +72,51 @@ input[type="password"] {
 	margin-left: 14px;
 	margin-right: 10px;
 }
-input placeholder {
-	padding: 5px;
+input[placeholder] {
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 15px;
 } 
 .column1 {
 	width: 100%;
 	margin-left: -20px;
-
 }
 .column2 {
 	width: 100%;
 	margin-left: -20px;
-
 	box-sizing: border-box;
+}
+button {
+	height: 35px;
+	width: inherit;
+	background-color: #6c757d;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px;
+	border: 1px solid #828990;
+	box-sizing: border-box;
+}
+.blk2 > button {
+	width: 70%;
+	padding-top: -8px;
+}
+.blk9 button {
+	margin-left: -15px;
+}
+.blk13 button {
+	margin-left: 15px;
 }
 .blk1 {
 	grid-column: 1/2;
-	grid-row: 1/4;
+	grid-row: 1/5;
+}
+.blk1 img {
+	padding-top: 20px;
+	padding-left: 10px;
 }
 .blk2 {
 	grid-column: 1/2;
-	grid-row: 4/6;
+	grid-row: 4/5;
 }
 .blk3 {
 	grid-column: 2/3;
