@@ -46,25 +46,47 @@ p {
 	margin-right: 56px;
 }
 .block1 p:nth-child(2) {
-	padding-left: 62;
-	margin-left: -180px;
+	/*padding-left: 62;*/
+	margin-left: -192px;
 }
 .block1 p {
-	padding-left: 31px;
+	padding-left: 26px;
 	color: #386299;
 	font-size: 20px;
-}
-input {
-
 }
 .wrapper {
 	display: grid;
 	grid-template-columns: 1fr 2fr 2fr;
 	grid-auto-rows: 50px;
+	grid-column-gap: 10px; 
 	width: 90%;
 	margin-left: 5%;
 	margin-top: 40px;
+}
+input {
+	height: 35px;
+	width: inherit;
+	margin-left: -14px;
+	border-radius: 3px;
+	border: 1px solid #dee0e2;
+}
+input[type="password"] {
+	margin-left: 14px;
+	margin-right: 10px;
+}
+input placeholder {
+	padding: 5px;
+} 
+.column1 {
+	width: 100%;
+	margin-left: -20px;
 
+}
+.column2 {
+	width: 100%;
+	margin-left: -20px;
+
+	box-sizing: border-box;
 }
 .blk1 {
 	grid-column: 1/2;
