@@ -34,3 +34,75 @@ p {
 	font-size: 35px;
 	text-align: center;
 } 
+.block1 {
+	background-color: #cce5ff;
+	width: 90%;
+	margin-left: 5%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.block1 p:last-child {
+	padding-right: 160px;
+	margin-right: 56px;
+}
+.block1 p:nth-child(2) {
+	padding-left: 62;
+	margin-left: -180px;
+}
+.block1 p {
+	padding-left: 31px;
+	color: #386299;
+	font-size: 20px;
+}
+input {
+
+}
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr;
+	grid-auto-rows: 50px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 40px;
+
+}
+.blk1 {
+	grid-column: 1/2;
+	grid-row: 1/4;
+}
+.blk2 {
+	grid-column: 1/2;
+	grid-row: 4/6;
+}
+.blk3 {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.blk4 {
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+.blk5 {
+	grid-column: 2/3;
+	grid-row: 3/4;
+}
+.blk6 {
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+.blk7 {
+	grid-column: 2/3;
+	grid-row: 5/6;
+}
+.blk8 {
+	grid-column: 2/3;
+	grid-row: 6/7;
+}
+.blk9 {
+	grid-column: 2/3;
+	grid-row: 7/8;
+}
+.blk10 {
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
