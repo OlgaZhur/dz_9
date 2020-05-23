@@ -37,15 +37,15 @@ p {
 	background-color: #cce5ff;
 	width: 90%;
 	margin-left: 5%;
-	display: inline-flex;
+	display: flex;
 	justify-content: space-between;
 }
 .block1 p:last-child {
-	padding-right: 160px;
+	padding-right: 238px;
 	margin-right: 56px;
 }
 .block1 p:nth-child(2) {
-	margin-left: -192px;
+	margin-left: -230px;
 }
 .block1 p {
 	padding-left: 26px;
